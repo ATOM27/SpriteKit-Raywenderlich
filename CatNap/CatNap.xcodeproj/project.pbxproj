@@ -15,6 +15,11 @@
 		449592F3222E730800D15BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449592F1222E730800D15BCD /* Main.storyboard */; };
 		449592F5222E730A00D15BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449592F4222E730A00D15BCD /* Assets.xcassets */; };
 		449592F8222E730A00D15BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449592F6222E730A00D15BCD /* LaunchScreen.storyboard */; };
+		44959305222EBBFE00D15BCD /* mrreow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44959300222EBBFE00D15BCD /* mrreow.mp3 */; };
+		44959306222EBBFF00D15BCD /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44959301222EBBFE00D15BCD /* pop.mp3 */; };
+		44959307222EBBFF00D15BCD /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44959302222EBBFE00D15BCD /* win.mp3 */; };
+		44959308222EBBFF00D15BCD /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44959303222EBBFE00D15BCD /* lose.mp3 */; };
+		44959309222EBBFF00D15BCD /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44959304222EBBFE00D15BCD /* backgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		449592F4222E730A00D15BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449592F7222E730A00D15BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		449592F9222E730A00D15BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44959300222EBBFE00D15BCD /* mrreow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrreow.mp3; sourceTree = "<group>"; };
+		44959301222EBBFE00D15BCD /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		44959302222EBBFE00D15BCD /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		44959303222EBBFE00D15BCD /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		44959304222EBBFE00D15BCD /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +75,25 @@
 				449592EB222E730800D15BCD /* Actions.sks */,
 				449592ED222E730800D15BCD /* GameScene.swift */,
 				449592EF222E730800D15BCD /* GameViewController.swift */,
+				449592FF222EBBFE00D15BCD /* Sounds */,
 				449592F1222E730800D15BCD /* Main.storyboard */,
 				449592F4222E730A00D15BCD /* Assets.xcassets */,
 				449592F6222E730A00D15BCD /* LaunchScreen.storyboard */,
 				449592F9222E730A00D15BCD /* Info.plist */,
 			);
 			path = CatNap;
+			sourceTree = "<group>";
+		};
+		449592FF222EBBFE00D15BCD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				44959300222EBBFE00D15BCD /* mrreow.mp3 */,
+				44959301222EBBFE00D15BCD /* pop.mp3 */,
+				44959302222EBBFE00D15BCD /* win.mp3 */,
+				44959303222EBBFE00D15BCD /* lose.mp3 */,
+				44959304222EBBFE00D15BCD /* backgroundMusic.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +156,13 @@
 			files = (
 				449592F3222E730800D15BCD /* Main.storyboard in Resources */,
 				449592EA222E730800D15BCD /* GameScene.sks in Resources */,
+				44959308222EBBFF00D15BCD /* lose.mp3 in Resources */,
 				449592F5222E730A00D15BCD /* Assets.xcassets in Resources */,
+				44959307222EBBFF00D15BCD /* win.mp3 in Resources */,
 				449592F8222E730A00D15BCD /* LaunchScreen.storyboard in Resources */,
+				44959305222EBBFE00D15BCD /* mrreow.mp3 in Resources */,
+				44959306222EBBFF00D15BCD /* pop.mp3 in Resources */,
+				44959309222EBBFF00D15BCD /* backgroundMusic.mp3 in Resources */,
 				449592EC222E730800D15BCD /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
